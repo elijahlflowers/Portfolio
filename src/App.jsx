@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { HashRouter, Routes, Route } from "react-router-dom"
 import flowerLogo from './assets/FlowerLogo.svg'
 import Swirl from './assets/swirl.svg'
 import { ToolContainer } from './components/Tool'  // add this
@@ -38,13 +38,13 @@ function Home() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
-        <Route path="/"          element={<Home />} />
-        <Route path="/game-dev"  element={<GameDev />} />
-        <Route path="/tools-ui"  element={<ToolsUI />} />
-        <Route path="/frontend"  element={<Frontend />} />
+        <Route path="/"         element={<Home />} />
+        <Route path="/game-dev" element={<GameDev />} />
+        <Route path="/tools-ui" element={<ToolsUI />} />
+        <Route path="/frontend" element={<Frontend />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
