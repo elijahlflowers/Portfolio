@@ -3,7 +3,7 @@ import UnityGodotS2 from '../assets/UnityGodotS2.svg'
 import UnityGodot from '../assets/UnityGodot.svg'
 import GodotFigma from '../assets/GodotFigma.svg'
 import NextReactTail from '../assets/NextReactTail.svg'
-
+import IllustratorFigma from '../assets/IllustratorFigma.svg'
 
 export const TOOLS = [
     {
@@ -27,6 +27,13 @@ export const TOOLS = [
         image: NextReactTail,
         to: "/frontend",
     },
+    {
+        id: 4,
+        title: "Graphic Design",
+        description: "",
+        image:IllustratorFigma, 
+        to: "/graphic-design", 
+    }
 ];
 
 export const SOCIAL = [

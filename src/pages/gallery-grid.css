@@ -1,0 +1,24 @@
+.gallery-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.gallery-item {
+  margin: 0;
+  width: 500px;       /* max width — adjust to taste */
+  max-width: 90%;      /* keeps it responsive on smaller screens */
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;        /* preserves aspect ratio, nothing cropped */
+  display: block;
+  border-radius: 8px;  /* optional */
+}
+
+.gallery-item figcaption {
+  text-align: center;
+  margin-top: 0.5rem;
+}

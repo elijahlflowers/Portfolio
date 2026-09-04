@@ -6,6 +6,7 @@ import { SOCIAL } from './components/toolconfig'
 import GameDev from './pages/GameDev'
 import ToolsUI from './pages/ToolsUI'
 import Frontend from './pages/Frontend'
+import GraphicDesign from './pages/GraphicDesign'
 import './tools.css'
 
 // Landing page — links to internal pages
@@ -44,6 +45,7 @@ export default function App() {
         <Route path="/game-dev" element={<GameDev />} />
         <Route path="/tools-ui" element={<ToolsUI />} />
         <Route path="/frontend" element={<Frontend />} />
+        <Route path ="/graphic-design" element={<GraphicDesign />} />
       </Routes>
     </HashRouter>
   )
